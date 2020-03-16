@@ -1,0 +1,119 @@
+body {
+  font-family: Calibri;
+  font-size: 17px;
+  width: 90%;
+  margin: auto;
+  background-color: #FCFCFC
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #EEEEEE;
+  text-align: left;
+  padding: 0.5em;
+  vertical-align: top;
+}
+
+th {
+  background-color: #4472C4;
+  color: #FFFFFF;
+}
+
+tr:nth-child(even) {
+  background-color: #E9EBF5;
+}
+
+tr:nth-child(odd) {
+  background-color: #CFD5EA;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #B00000;
+}
+
+.publications a {
+  color: #223388;
+}
+
+.readings a {
+  color: #224400;
+}
+
+table.readings th {
+  background-color: #70AD47;
+}
+
+table.readings tr:nth-child(odd) {
+  background-color: #D5E3CF;
+}
+
+table.readings tr:nth-child(even) {
+  background-color: #EBF1E9;
+}
+
+.publications {
+  color: #223388;
+}
+
+.readings {
+  color: #224400;
+}
+
+
+h1, h3 {
+  color: #3E3E3E;
+}
+
+h2 {
+  color: #B00000;
+}
+
+#profile-image {
+  float: left;
+  height: 21.5em;
+  margin-top: 0em;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+}
+
+#personal-info {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+}
+
+#main, #footer {
+  float: left;
+}
+
+#footer {
+  width: 100%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+img {
+  height: inherit;
+}
+
+th.number {
+  width: 3%;
+}
+
+th.author {
+  width: 15%;
+}
+
+th.journal {
+  width: 20%;
+}
+
+th.year {
+  width: 5%
+}
