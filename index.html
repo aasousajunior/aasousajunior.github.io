@@ -8,6 +8,8 @@
 
 <meta name="description" content="Ailton Sousa-Junior, M.Sc. - Personal information, Publications and Readings.">
 
+<meta name="author" content="Ailton Sousa-Junior">
+
 <meta name="keywords" content="nanomedicine,
 							   thermal medicine,
 							   photothermal therapy,
@@ -36,7 +38,7 @@ body {
   font-size: 17px;
   width: 90%;
   margin: auto;
-  background-color: #FCFBFC
+  background-color: #FCFCFC
 }
 
 table {
@@ -66,10 +68,15 @@ tr:nth-child(odd) {
 a {
   text-decoration: none;
   font-weight: bold;
+  color: #B00000;
 }
 
 .publications a {
   color: #223388;
+}
+
+.readings a {
+  color: #224400;
 }
 
 table.readings th {
@@ -84,21 +91,14 @@ table.readings tr:nth-child(even) {
   background-color: #EBF1E9;
 }
 
-.readings a {
-  color: #226633;
-}
-
-h2.readings {
-  color: #226633;
-}
-
-h2.publications {
+.publications {
   color: #223388;
 }
 
-a {
-  color: #B00000;
+.readings {
+  color: #224400;
 }
+
 
 h1, h3 {
   color: #3E3E3E;
@@ -108,42 +108,61 @@ h2 {
   color: #B00000;
 }
 
+#profile-image {
+  float: left;
+  width: 20%;
+  margin-right: 1em;
+}
+
+#personal-info {
+  margin-top: 1em;
+}
+
+#main, #footer {
+  float: left;
+}
+
 
 </style>
 </head>
 <body>
 
-<h1>Ailton Antonio Sousa-Junior, M.Sc.</h1>
+<div id="profile-image">
+	<img src="profile.jpg" alt="Ailton Sousa-Junior" width="100%">
+</div>
 
-<hr>
+<div id="personal-info" >
+	<hr>
+	<h1>Ailton Antonio Sousa-Junior, M.Sc.</h1>
 
-<h2>Personal information</h2>
+	<hr>
 
-<h3>Curriculum</h3>
+	<h2>Personal information</h2>
 
-<p>
-	<a href="https://scholar.google.com.br/citations?user=FjFzusYAAAAJ&hl=pt-BR&oi=ao" target="_blank">
-		Google Scholar
-	</a>
-	|
-	<a href="http://lattes.cnpq.br/4813745963376918" target="_blank">
-		CNPq Lattes
-	</a>
-</p>
+	<h3>Curriculum</h3>
 
-<h3>Current affiliation</h3>
+	<p>
+		<a href="https://scholar.google.com.br/citations?user=FjFzusYAAAAJ&hl=pt-BR&oi=ao" target="_blank">
+			Google Scholar
+		</a>
+		|
+		<a href="http://lattes.cnpq.br/4813745963376918" target="_blank">
+			CNPq Lattes
+		</a>
+	</p>
 
-<p>
-	<a href="https://www.if.ufg.br/" target="_blank">Physics Institute</a>
-	- 
-	<a href="https://www.ufg.br/" target="_blank">Federal University of Goiás</a> 
-	- 
-	<a href="https://goo.gl/maps/rhdcWXZfjixSwuFk9" target="_blank">Goiânia/Brazil</a>
-</p>
+	<h3>Current affiliation</h3>
 
-<hr>
-
-<h2 class="publications">Publications</h2>
+	<p>
+		<a href="https://www.if.ufg.br/" target="_blank">Physics Institute</a>
+		- 
+		<a href="https://www.ufg.br/" target="_blank">Federal University of Goiás</a> 
+		- 
+		<a href="https://goo.gl/maps/rhdcWXZfjixSwuFk9" target="_blank">Goiânia/Brazil</a>
+	</p>
+</div>
+<div id="main" >
+<h2 class="publications"><a id="publications">Publications</a></h2>
 
 <table class="publications">
   <tr>
@@ -242,7 +261,7 @@ h2 {
 <p></p>
 <hr>
 
-<h2 class="readings">Readings</h2>
+<h2 class="readings"><a id="readings">Readings</a></h2>
 
 <table class="readings">
   <tr>
@@ -342,9 +361,7 @@ h2 {
 		</a>
 	</td>
     <td>
-		<a href="https://steelelabs.mgh.harvard.edu/rakesh_jain/pi_bio" target="_blank">
-			Rakesh Jain
-		</a>
+		Rakesh Jain
 	</td>
     <td>
 		Nature Communications
@@ -529,6 +546,61 @@ h2 {
 		2017
 	</td>
   </tr>
+  
+  <tr>
+    <td>2019-24</td>
+	<td>
+		<a href="https://doi.org/10.1016/S1470-2045(19)30392-4" target="_blank">
+			Nanoparticle augmentation of radiotherapy in sarcoma
+		</a>
+	</td>
+    <td>
+		Daniel Nussbaum
+	</td>
+    <td>
+		The Lancet Oncology
+	</td>
+	<td>
+		2019
+	</td>
+  </tr>
+  
+  <tr>
+    <td>2019-23</td>
+	<td>
+		<a href="https://doi.org/10.1158/1535-7163.MCT-09-0195" target="_blank">
+			A modeling analysis of the effects of molecular size and binding affinity on tumor targeting
+		</a>
+	</td>
+    <td>
+		K. Dane Wittrup
+	</td>
+    <td>
+		Molecular Cancer Therapeutics
+	</td>
+	<td>
+		2009
+	</td>
+  </tr>
+  
+  <tr>
+    <td>2019-22</td>
+	<td>
+		<a href="https://doi.org/10.1016/j.biomaterials.2019.119370" target="_blank">
+			Magnetic-responsive and targeted cancer nanotheranostics 
+			by PA/MR bimodal imaging-guided photothermally triggered immunotherapy
+		</a>
+	</td>
+    <td>
+		Haitao Ran
+	</td>
+    <td>
+		Biomaterials
+	</td>
+	<td>
+		2019
+	</td>
+  </tr>
 <!--  
   <tr>
     <td></td>
@@ -551,8 +623,16 @@ h2 {
   </tr>
 -->  
 </table>
-<p></p>
-<p></p>
-
+</div>
+<div id="footer" >
+<hr>
+<p>
+	<a href="#">Back to top</a>
+	| 
+	<a href="#publications" class="publications">Publications</a>
+	| 
+	<a href="#readings" class="readings">Readings</a>
+</p>
+</div>
 </body>
 </html>
