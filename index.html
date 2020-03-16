@@ -45,16 +45,52 @@ tr:nth-child(odd) {
 
 a {
   text-decoration: none;
-  color: #223388;
   font-weight: bold;
 }
 
+.publications a {
+  color: #223388;
+}
+
+table.readings th {
+  background-color: #70AD47;
+}
+
+table.readings tr:nth-child(odd) {
+  background-color: #D5E3CF;
+}
+
+table.readings tr:nth-child(even) {
+  background-color: #EBF1E9;
+}
+
+.readings a {
+  color: #226633;
+}
+
+h2.readings {
+  color: #226633;
+}
+
+h2.publications {
+  color: #223388;
+}
+
+a {
+  color: #B00000;
+}
+
+h1, h2 {
+  color: #3E3E3E;
+}
 </style>
 </head>
-<title>Sousa-Junior's Homepage</title>
+<title>Sousa-Junior's Home</title>
 <body>
 
 <h1>Ailton Antonio Sousa-Junior, M.Sc.</h1>
+
+<hr>
 
 <h2>Curriculum</h2>
 
@@ -64,7 +100,7 @@ a {
 	</a>
 	|
 	<a href="http://lattes.cnpq.br/4813745963376918" target="_blank">
-		Lattes
+		CNPq Lattes
 	</a>
 </p>
 
@@ -77,20 +113,23 @@ a {
 	- Goiânia/Brazil
 </p>
 
-<h2>Publications</h2>
+<hr>
 
-<table>
+<h2 class="publications">Publications</h2>
+
+<table class="publications">
   <tr>
     <th width="7%">#</th>
 	<th>Title</th>
     <th width="15%">Corresponding author</th>
     <th width="20%">Journal</th>
+	<th width="5%">Year</th>
   </tr>
     <tr>
     <td>2020-01</td>
 	<td>
 		<a href="https://doi.org/10.1021/acs.molpharmaceut.9b01094" target="_blank">
-			Predictive model for delivery efficiency:</br> 
+			Predictive model for delivery efficiency: 
 			Erythrocyte membrane-camouflaged magnetofluorescent nanocarriers study
 		</a>
 	</td>
@@ -99,44 +138,59 @@ a {
 			Andris Bakuzis
 		</a>
 	</td>
-    <td>Molecular Pharmaceutics</td>
+    <td>
+		Molecular Pharmaceutics
+	</td>
+	<td>
+		2020
+	</td>
   </tr>
   
   <tr>
     <td>2019-01</td>
 	<td>
 		<a href="https://doi.org/10.1109/TNB.2019.2912073" target="_blank">
-			Multichannel AC biosusceptometry system to map biodistribution</br>
+			Multichannel AC biosusceptometry system to map biodistribution 
 			and assess the pharmacokinetic profile of magnetic nanoparticles by imaging
 		</a>
 	</td>
     <td>
 		Guilherme Soares
 	</td>
-    <td>IEEE Transactions</br>on NanoBioscience </td>
+    <td>
+		IEEE Transactions on NanoBioscience
+	</td>
+	<td>
+		2019
+	</td>
   </tr>
   
   <tr>
     <td>2018-02</td>
 	<td>
 		<a href="https://doi.org/10.1080/21645515.2018.1489192" target="_blank">
-			Specific T cell induction using iron oxide based nanoparticles</br>
+			Specific T cell induction using iron oxide based nanoparticles 
 			as subunit vaccine adjuvant
 		</a>
 	</td>
     <td>
 		<a href="https://scholar.google.com.br/citations?user=emp2r_QAAAAJ" target="_blank">
-			Ana Paula</br>Junqueira-Kipnis
+			Ana Paula Junqueira-Kipnis
 		</a>
 	</td>
-    <td>Human Vaccines & Immunotherapeutics</td>
+    <td>
+		Human Vaccines & Immunotherapeutics
+	</td>
+	<td>
+		2018
+	</td>
   </tr>
   
   <tr>
     <td>2018-01</td>
 	<td>
 		<a href="https://doi.org/10.1016/j.colsurfb.2018.04.055" target="_blank">
-			Clavanin A-bioconjugated Fe<sub>3</sub>O<sub>4</sub>/Silane core-shell nanoparticles</br>
+			Clavanin A-bioconjugated Fe<sub>3</sub>O<sub>4</sub>/Silane core-shell nanoparticles 
 			for thermal ablation of bacterial biofilms
 		</a>
 	</td>
@@ -145,26 +199,34 @@ a {
 			Cesar Andrade
 		</a>
 	</td>
-    <td>Colloids and Surfaces B:</br> Biointerfaces</td>
+    <td>
+		Colloids and Surfaces B: Biointerfaces
+	</td>
+	<td>
+		2018
+	</td>
   </tr>
   
 </table>
+<p></p>
+<p></p>
+<hr>
 
-<h2>Readings</h2>
+<h2 class="readings">Readings</h2>
 
-<table>
+<table class="readings">
   <tr>
     <th width="7%">#</th>
 	<th>Title</th>
     <th width="15%">Corresponding author</th>
     <th width="20%">Journal</th>
+	<th width="5%">Year</th>
   </tr>
     <tr>
     <td>2020-02</td>
 	<td>
 		<a href="https://doi.org/10.1016/j.jconrel.2011.09.098" target="_blank">
-			The journey of a drug-carrier in the body:</br>
-			An anatomo-physiological perspective
+			The journey of a drug-carrier in the body: An anatomo-physiological perspective
 		</a>
 	</td>
     <td>
@@ -172,7 +234,12 @@ a {
 			Jean-Christophe Leroux
 		</a>
 	</td>
-    <td>Journal of Controlled Release</td>
+    <td>
+		Journal of Controlled Release
+	</td>
+	<td>
+		2012
+	</td>
   </tr>
   
   <tr>
@@ -187,14 +254,19 @@ a {
 			Warren Chan
 		</a>
 	</td>
-    <td>Nature Materials</td>
+    <td>
+		Nature Materials
+	</td>
+	<td>
+		2020
+	</td>
   </tr>
   
   <tr>
     <td>2019-36</td>
 	<td>
 		<a href="https://doi.org/10.1073/pnas.2232479100" target="_blank">
-			Nanoshell-mediated near-infrared thermal therapy of tumors</br>
+			Nanoshell-mediated near-infrared thermal therapy of tumors 
 			under magnetic resonance guidance
 		</a>
 	</td>
@@ -203,7 +275,12 @@ a {
 			Jennifer West
 		</a>
 	</td>
-    <td>PNAS</td>
+    <td>
+		PNAS
+	</td>
+	<td>
+		2003
+	</td>
   </tr>
   
   <tr>
@@ -218,15 +295,20 @@ a {
 			Peter Searson
 		</a>
 	</td>
-    <td>PLoS One</td>
+    <td>
+		PLoS One
+	</td>
+	<td>
+		2015
+	</td>
   </tr>
   
   <tr>
     <td>2019-34</td>
 	<td>
 		<a href="https://doi.org/10.1038/ncomms3516" target="_blank">
-			Angiotensin inhibition enhances drug delivery and potentiates chemotherapy
-			</br>by decompressing tumour blood vessels
+			Angiotensin inhibition enhances drug delivery and potentiates chemotherapy 
+			by decompressing tumour blood vessels
 		</a>
 	</td>
     <td>
@@ -234,221 +316,74 @@ a {
 			Rakesh Jain
 		</a>
 	</td>
-    <td>Nature Communications</td>
+    <td>
+		Nature Communications
+	</td>
+	<td>
+		2013
+	</td>
   </tr>
   
   <tr>
     <td>2019-33</td>
 	<td>
-		<a href="" target="_blank">
-			
+		<a href="https://doi.org/10.1021/acsnano.8b00204" target="_blank">
+			Laser immunotherapy in combination with perdurable PD-1 blocking 
+			for the treatment of metastatic tumors
 		</a>
 	</td>
     <td>
-		<a href="" target="_blank">
-			
-		</a>
+		Jian You
 	</td>
-    <td></td>
+    <td>
+		ACS Nano
+	</td>
+	<td>
+		2018
+	</td>
   </tr>
   
   <tr>
     <td>2019-32</td>
 	<td>
-		<a href="" target="_blank">
-			
+		<a href="https://doi.org/10.1038/nnano.2012.207" target="_blank">
+			Biomolecular coronas provide the biological identity of nanosized materials
 		</a>
 	</td>
     <td>
-		<a href="" target="_blank">
-			
-		</a>
+		Kenneth Dawson
 	</td>
-    <td></td>
+    <td>
+		Nature Nanotechnology
+	</td>
+	<td>
+		2012
+	</td>
   </tr>
   
   <tr>
     <td>2019-31</td>
 	<td>
-		<a href="" target="_blank">
-			
+		<a href="https://doi.org/10.1039/c8bm01553h" target="_blank">
+			Prussian blue nanoparticle-based antigenicity and adjuvanticity trigger 
+			robust antitumor immune responses against neuroblastoma
 		</a>
 	</td>
     <td>
-		<a href="" target="_blank">
-			
+		<a href="https://scholar.google.com.br/citations?user=So0yBDIAAAAJ" target="_blank">
+			Rohan Fernandes
 		</a>
 	</td>
-    <td></td>
-  </tr>
-  
-  <tr>
-    <td>2019-30</td>
+    <td>
+		Biomaterials Science
+	</td>
 	<td>
-		<a href="" target="_blank">
-			
-		</a>
+		2019
 	</td>
-    <td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td></td>
-  </tr>
-  
-  <tr>
-    <td>2019-29</td>
-	<td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td></td>
-  </tr>
-  
-  <tr>
-    <td>2019-28</td>
-	<td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td></td>
-  </tr>
-  
-  <tr>
-    <td>2019-27</td>
-	<td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td></td>
-  </tr>
-  
-  <tr>
-    <td>2019-26</td>
-	<td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td></td>
-  </tr>
-  
-  <tr>
-    <td>2019-25</td>
-	<td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td></td>
-  </tr>
-  
-  <tr>
-    <td>2019-24</td>
-	<td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td></td>
-  </tr>
-  
-  <tr>
-    <td>2019-23</td>
-	<td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td></td>
-  </tr>
-  
-  <tr>
-    <td>2019-22</td>
-	<td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td></td>
-  </tr>
-  
-  <tr>
-    <td>2019-21</td>
-	<td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td></td>
-  </tr>
-  
-  <tr>
-    <td>2019-20</td>
-	<td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td>
-		<a href="" target="_blank">
-			
-		</a>
-	</td>
-    <td></td>
   </tr>
   
 </table>
-
+<p></p>
 <p></p>
 
 </body>
