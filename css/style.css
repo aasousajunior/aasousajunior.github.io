@@ -100,6 +100,7 @@ h2 {
 
 img {
   height: inherit;
+  filter: grayscale(25%);
 }
 
 th.number {
@@ -107,7 +108,7 @@ th.number {
 }
 
 th.author {
-  width: 15%;
+  width: 20%;
 }
 
 th.journal {
