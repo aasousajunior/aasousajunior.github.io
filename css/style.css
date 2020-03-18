@@ -1,7 +1,7 @@
 body {
   font-family: Calibri;
-  font-size: 1em;
-  width: 95%;
+  font-size: 0.97em;
+  width: 90%;
   margin: auto;
   background-color: #FCFCFC
 }
@@ -12,7 +12,6 @@ table {
 }
 
 td, th {
-  border: 1px solid #EEEEEE;
   text-align: left;
   padding: 0.5em;
   vertical-align: top;
@@ -80,16 +79,24 @@ h2 {
   margin-top: 0em;
   margin-right: 1em;
   margin-bottom: 0.5em;
+  display: block;
+  width: inherit%
 }
 
 #personal-info {
   margin-top: 1em;
   margin-bottom: 1em;
   padding-top: 0.5em;
+  width: 100%;
+  display: block;
 }
 
 #main, #footer {
   float: left;
+}
+
+#header {
+  width: 100%;
 }
 
 #footer {
@@ -104,17 +111,5 @@ img {
 }
 
 th.number {
-  width: 3%;
-}
-
-th.author {
-  width: 16%;
-}
-
-th.journal {
-  width: 22%;
-}
-
-th.year {
-  width: 4%
+  width: 1%;
 }
