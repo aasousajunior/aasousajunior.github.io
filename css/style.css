@@ -2,12 +2,14 @@ body {
   font-family: Calibri;
   width: 90%;
   margin: auto;
-  background-color: #FCFCFC
+  background-color: #FCFCFC;
+  font-size: 120%;
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
+  font-size: 120%;
 }
 
 td, th {
