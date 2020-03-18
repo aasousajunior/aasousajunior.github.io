@@ -3,13 +3,11 @@ body {
   width: 90%;
   margin: auto;
   background-color: #FCFCFC;
-  font-size: 120%;
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
-  font-size: 120%;
 }
 
 td, th {
@@ -80,28 +78,21 @@ h2 {
   margin-top: 0em;
   margin-right: 1em;
   margin-bottom: 0.5em;
-  display: block;
-  width: inherit%
 }
 
 #personal-info {
   margin-top: 1em;
   margin-bottom: 1em;
   padding-top: 0.5em;
-  width: 100%;
-  display: block;
+
 }
 
 #main, #footer {
   float: left;
 }
 
-#header {
-  width: 100%;
-}
-
 #footer {
-  width: 100%;
+	width: 100%;
   margin-bottom: 1em;
   margin-top: 1em;
 }
@@ -109,8 +100,6 @@ h2 {
 img {
   height: inherit;
   filter: sepia(40%);
+  width: inherit;
 }
 
-th.number {
-  width: 1%;
-}
