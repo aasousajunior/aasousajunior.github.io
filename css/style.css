@@ -74,10 +74,10 @@ h2 {
 }
 
 #profile-image {
-  margin-right: 1vw;
+  margin: auto;
   margin-bottom: 0.5vw;
   margin-top: 0.5vw;
-  width: 20vw;
+  width: 100%;
 }
 
 #main {
@@ -93,13 +93,15 @@ h2 {
 }
 
 #footer {
-  float: left;
   width: 100%;
   margin-bottom: 1vw;
   margin-top: 1vw;
 }
 
+th.number {
+  width: 1.25vw;
+}
+
 img {
   filter: sepia(40%);
-  width: inherit;
 }
