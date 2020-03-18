@@ -1,14 +1,14 @@
 body {
   font-family: Calibri;
-  width: 90%;
+  width: 90vw;
   margin: auto;
   background-color: #FCFCFC;
-  font-size: 1.5vw;
+  font-size: 19px;
 }
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: inherit;
 }
 
 td, th {
@@ -78,20 +78,23 @@ h2 {
   margin-right: 1vw;
   margin-bottom: 0.5vw;
   margin-top: 0.5vw;
+  width: 20vw;
+}
+
+#main {
+  float: left;
+  width: 100%;
 }
 
 #personal-info {
   margin-top: 1vw;
   margin-bottom: 1vw;
   padding-top: 0.5vw;
-  width: 100%;
-}
-
-#main, #footer {
-  float: left;
+  width: auto;
 }
 
 #footer {
+  float: left;
   width: 100%;
   margin-bottom: 1vw;
   margin-top: 1vw;
@@ -99,6 +102,5 @@ h2 {
 
 img {
   filter: sepia(40%);
-  width: 22vw;
+  width: inherit;
 }
-
