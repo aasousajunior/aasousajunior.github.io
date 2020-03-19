@@ -56,12 +56,27 @@ table.readings tr:nth-child(even) {
   background-color: #EBF1E9;
 }
 
+table.presentations th {
+  background-color: #ED7D31;
+}
+
+table.presentations tr:nth-child(odd) {
+  background-color: #F8D7CD;
+}
+
+table.presentations tr:nth-child(even) {
+  background-color: #FCECE8;
+}
 .publications {
   color: #223388;
 }
 
 .readings {
   color: #224400;
+}
+
+.presentations, table.presentations a {
+  color: #B55219;
 }
 
 
@@ -74,10 +89,11 @@ h2 {
 }
 
 #profile-image {
-  margin: auto;
-  margin-bottom: 0.5vw;
-  margin-top: 0.5vw;
-  width: 100%;
+  filter: sepia(50%);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 20em;
 }
 
 #main {
@@ -86,23 +102,21 @@ h2 {
 }
 
 #personal-info {
-  margin-top: 1vw;
-  margin-bottom: 1vw;
-  padding-top: 0.5vw;
-  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #footer {
   float: left;
   width: 100%;
-  margin-bottom: 1vw;
-  margin-top: 1vw;
-}
-
-img {
-  filter: sepia(40%);
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 th.number {
   width: 16px;
+}
+
+img {
+	width: inherit;
 }
