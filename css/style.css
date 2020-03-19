@@ -113,3 +113,7 @@ th.number {
 img {
 	width: 100%;
 }
+
+em a{
+  font-weight: normal;
+}
