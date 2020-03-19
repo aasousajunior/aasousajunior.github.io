@@ -90,7 +90,7 @@ h2 {
 
 #profile-image {
   float: right;
-  width: 100px;
+  width: 150px;
   filter: sepia(50%);
 }
 
@@ -107,9 +107,9 @@ h2 {
 }
 
 th.number {
-  width: 16px;
+  width: 25px;
 }
 
 img {
-	width: 100px;
+	width: 100%;
 }
