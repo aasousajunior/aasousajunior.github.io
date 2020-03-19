@@ -89,11 +89,10 @@ h2 {
 }
 
 #profile-image {
+  float: right;
   filter: sepia(50%);
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  width: 20em;
+  margin-left: 10px;
+  width: 100px;
 }
 
 #main {
@@ -102,7 +101,6 @@ h2 {
 }
 
 #personal-info {
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
