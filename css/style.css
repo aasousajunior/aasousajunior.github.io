@@ -89,9 +89,9 @@ h2 {
 }
 
 #profile-image {
+  float: right;
   width: 100px;
   filter: sepia(50%);
-  margin-top: 10px;
 }
 
 #main {
