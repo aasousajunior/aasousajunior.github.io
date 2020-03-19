@@ -89,19 +89,14 @@ h2 {
 }
 
 #profile-image {
-  float: right;
-  filter: sepia(50%);
-  margin-left: 10px;
   width: 100px;
+  filter: sepia(50%);
+  margin-top: 10px;
 }
 
 #main {
   float: left;
   width: 100%;
-}
-
-#personal-info {
-  margin-bottom: 10px;
 }
 
 #footer {
@@ -116,5 +111,5 @@ th.number {
 }
 
 img {
-	width: inherit;
+	width: 100px;
 }
