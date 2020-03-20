@@ -44,6 +44,10 @@ a {
   color: #224400;
 }
 
+.awards a, .awards b {
+  color: #501080;
+}
+
 table.readings th {
   background-color: #70AD47;
 }
@@ -67,6 +71,19 @@ table.presentations tr:nth-child(odd) {
 table.presentations tr:nth-child(even) {
   background-color: #FCECE8;
 }
+
+table.awards th {
+  background-color: #7030A0;
+}
+
+table.awards tr:nth-child(odd) {
+  background-color: #CFBFD6;
+}
+
+table.awards tr:nth-child(even) {
+  background-color: #ECDFF5;
+}
+
 .publications {
   color: #223388;
 }
@@ -77,6 +94,10 @@ table.presentations tr:nth-child(even) {
 
 .presentations, table.presentations a {
   color: #B55219;
+}
+
+.awards {
+  color: #501080;
 }
 
 
