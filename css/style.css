@@ -147,7 +147,6 @@ em a{
   text-align: left;
   border: none;
   outline: none;
-  transition: 0.3s;
 }
 
 .active, .accordion:hover {
@@ -157,7 +156,7 @@ em a{
 .panel {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.25s ease-out;
+  transition: max-height 0.5s ease-out;
   width: 100%;
 }
 
