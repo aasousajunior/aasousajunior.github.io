@@ -103,8 +103,6 @@ table.awards tr:nth-child(even) {
 
 h1, h3 {
   color: #3E3E3E;
-  margin-bottom: 5px;
-  margin-top: 10px;
 }
 
 h2 {
@@ -112,7 +110,6 @@ h2 {
 }
 
 #profile-image {
-  float: right;
   width: 150px;
   filter: sepia(50%);
 }
@@ -143,29 +140,35 @@ em a{
 
 .accordion {
   cursor: pointer;
-  width: 100%;
   text-align: left;
   border: none;
   outline: none;
 }
 
-.active, .accordion:hover {
-  
+.accordion:hover {
+  background-color: #EFEFEF;
+  color: #5E5E5E;
 }
 
 .panel {
   max-height: 0;
-  overflow: hidden;
-  transition: max-height 1s ease-out;
   width: 100%;
+  overflow: hidden;
+  transition: max-height 0.25s ease-out;
+  
 }
 
 .accordion:after {
   content: '+'; /* Unicode character for "plus" sign (+) */
-  color: #3E3E3E;
+  color: inherit;
   margin-left: 3px;
 }
 
 .active:after {
   content: '\2013'; /* Unicode character for "minus" sign (-) */
+}
+
+p, h1, h2, h3 {
+  margin: 10px 0px;
+  width: fit-content;
 }
