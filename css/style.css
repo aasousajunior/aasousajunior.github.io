@@ -149,10 +149,6 @@ th.number {
   width: 25px;
 }
 
-th.year {
-  width: 80px;
-}
-
 img {
 	width: 100%;
 }
@@ -202,7 +198,20 @@ p, h1, h2, h3 {
 }
 
 .logo {
-  width: 50px;
+  width: 45px;
   float: left;
-  margin: 3px 15px 0px 0px;
+  margin: 0px;
 }
+
+.degree {
+  width: auto;
+}
+
+.year {
+  width: 80px;
+}
+
+.logo-col {
+  width: 40px;
+}
+
