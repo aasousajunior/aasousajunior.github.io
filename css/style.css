@@ -103,6 +103,8 @@ table.awards tr:nth-child(even) {
 
 h1, h3 {
   color: #3E3E3E;
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 h2 {
@@ -137,4 +139,34 @@ img {
 
 em a{
   font-weight: normal;
+}
+
+.accordion {
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+.active, .accordion:hover {
+  
+}
+
+.panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.25s ease-out;
+  width: 100%;
+}
+
+.accordion:after {
+  content: '+'; /* Unicode character for "plus" sign (+) */
+  color: #3E3E3E;
+  margin-left: 3px;
+}
+
+.active:after {
+  content: '\2013'; /* Unicode character for "minus" sign (-) */
 }
