@@ -2,7 +2,7 @@ body {
   font-family: Calibri;
   width: 90vw;
   margin: auto;
-  background-color: #FCFCFC;
+  background-color: #FFF;
   font-size: 16px;
 }
 
@@ -48,6 +48,15 @@ a {
   color: #501080;
 }
 
+table.education th {
+  background-color: #B00000;
+}
+
+.education {
+  color: #333;
+}
+
+
 table.readings th {
   background-color: #70AD47;
 }
@@ -82,6 +91,14 @@ table.awards tr:nth-child(odd) {
 
 table.awards tr:nth-child(even) {
   background-color: #ECDFF5;
+}
+
+table.education tr:nth-child(odd) {
+  background-color: #FFDCDC;
+}
+
+table.education tr:nth-child(even) {
+  background-color: #FFEDED;
 }
 
 .publications {
@@ -132,6 +149,10 @@ th.number {
   width: 25px;
 }
 
+th.year {
+  width: 75px;
+}
+
 img {
 	width: 100%;
 }
@@ -139,6 +160,7 @@ img {
 em a{
   font-weight: normal;
 }
+
 
 .accordion {
   cursor: pointer;
@@ -173,4 +195,14 @@ em a{
 p, h1, h2, h3 {
   margin: 10px 0px;
   width: fit-content;
+}
+
+#ailton {
+  border-radius: 50px;
+}
+
+.logo {
+  width: 50px;
+  float: left;
+  margin: 3px 15px 0px 0px;
 }
