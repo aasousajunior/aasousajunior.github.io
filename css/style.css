@@ -199,8 +199,7 @@ p, h1, h2, h3 {
 
 .logo {
   width: 45px;
-  float: left;
-  margin: 0px;
+  margin: 5px;  
 }
 
 .degree {
@@ -209,9 +208,5 @@ p, h1, h2, h3 {
 
 .year {
   width: 85px;
-}
-
-.logo-col {
-  width: 40px;
 }
 
