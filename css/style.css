@@ -81,6 +81,22 @@ table.presentations tr:nth-child(even) {
   background-color: #FCECE8;
 }
 
+table.languages td {
+  background-color: #FFF;
+  vertical-align: middle;
+  padding: 4px;
+  border: #FFF;
+}
+
+table.languages td b {
+  color: #333333;
+}
+
+
+table.languages {
+	width: auto;
+}
+
 table.awards th {
   background-color: #7030A0;
 }
@@ -124,6 +140,16 @@ h1, h3 {
 
 h2 {
   color: #B00000;
+}
+
+img.icon {
+  width: 30px;
+  height: 30px;
+}
+
+#languages {
+	width: 100%;
+	display: block;
 }
 
 #profile-image {
