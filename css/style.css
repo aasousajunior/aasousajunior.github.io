@@ -213,6 +213,6 @@ p, h2, h3 {
 }
 
 h1 {
-  margin: 10px auto 10px auto;
-  display: table;
+  text-align: center;
+  margin: 10px auto;
 }
