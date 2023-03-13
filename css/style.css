@@ -54,6 +54,7 @@ table.education th {
 
 .education {
   color: #333;
+  width: 100%;
 }
 
 
@@ -119,27 +120,33 @@ table.education tr:nth-child(even) {
 
 .publications {
   color: #223388;
+  width: 100%;
 }
 
 .readings {
   color: #224400;
+  width: 100%;
 }
 
 .presentations, table.presentations a {
   color: #B55219;
+  width: 100%;
 }
 
 .awards {
   color: #501080;
+  width: 100%;
 }
 
 
 h1, h3 {
   color: #3E3E3E;
+  padding-top: 15px;
 }
 
 h2 {
   color: #B00000;
+  padding-top: 15px;
 }
 
 img.icon {
@@ -180,37 +187,6 @@ img {
 
 em a{
   font-weight: normal;
-}
-
-
-.accordion {
-  cursor: pointer;
-  text-align: left;
-  border: none;
-  outline: none;
-}
-
-.accordion:hover {
-  background-color: #EFEFEF;
-  color: #5E5E5E;
-}
-
-.panel {
-  max-height: 0;
-  width: 100%;
-  overflow: hidden;
-  transition: max-height 0.25s ease-out;
-  
-}
-
-.accordion:after {
-  content: '+'; /* Unicode character for "plus" sign (+) */
-  color: inherit;
-  margin-left: 3px;
-}
-
-.active:after {
-  content: '\2013'; /* Unicode character for "minus" sign (-) */
 }
 
 p, h2, h3 {
