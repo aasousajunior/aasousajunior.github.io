@@ -145,6 +145,13 @@ h1, h3 {
   width: 100%;
 }
 
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+  width: 100%;
+}
+
 h2 {
   color: #B00000;
   padding-top: 15px;
